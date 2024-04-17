@@ -111,38 +111,45 @@ Partiendo del repositorio en GitLab llamado "app-proyecto" y creando la rama hot
 
 <details><summary>Pasos:</summary>
 <br>
- 1. Clonar el repositorio desde GitLab a tu máquina local si aún no lo has hecho:
+ :one: Clonar el repositorio desde GitLab a tu máquina local si aún no lo has hecho:
+   
    ```bash
    git clone <URL_del_repositorio_en_GitLab>
    ```
 
-2. Navegar al directorio del repositorio clonado:
+:two: Navegar al directorio del repositorio clonado:
+
    ```bash
    cd app-proyecto
    ```
 
-3. Asegurarse de estar en la rama develop:
+:three: Asegurarse de estar en la rama develop:
+
    ```bash
    git checkout develop
    ```
 
-4. Crear una nueva rama de corrección de errores desde develop:
+:four: Crear una nueva rama de corrección de errores desde develop:
+
    ```bash
    git checkout -b hotfix/error
    ```
 
-5. Realizar la corrección del error en tu código.
+:five: Realizar la corrección del error en tu código.
+
    ```bash
    # Realizar correcciones según sea necesario
    ```
 
-6. Hacer commit de los cambios:
+:six: Hacer commit de los cambios:
+
    ```bash
    git add .
    git commit -m "Corregir error crítico en producción"
    ```
 
-7. Subir la rama de corrección de errores al repositorio en GitLab:
+:seven: Subir la rama de corrección de errores al repositorio en GitLab:
+
    ```bash
    git push origin hotfix/error
    ```
