@@ -2,11 +2,11 @@
 
 ### Política de Versionamiento de Código
 
-#### Objetivo
+#### 1. Objetivo
 
 La política de versionamiento de código tiene como objetivo proporcionar una estructura clara y consistente para gestionar el versionamiento del código en un equipo de desarrollo de software. Esto incluye la identificación de versiones, la gestión de ramas de código, el incremento de versiones y el manejo de pre-lanzamientos.
 
-#### Convenciones de Versionamiento
+#### 2. Convenciones de Versionamiento
 - **Formato de versión**: Las versiones seguirán el formato "MAJOR.MINOR.PATCH" donde:
   - **MAJOR**: Incrementado para cambios significativos que pueden afectar la compatibilidad hacia atrás o introducir nuevas funcionalidades importantes.
   - **MINOR**: Incrementado para adiciones de nuevas funcionalidades que son compatibles con versiones anteriores.
@@ -15,21 +15,40 @@ La política de versionamiento de código tiene como objetivo proporcionar una e
 - **Ramas de Código**: Cada desarrollador creará una rama de código separada para cada nueva funcionalidad o tarea, utilizando el formato `feature_idtarea`.
 - **Integración de Código**: Los cambios se integrarán primero en la rama `developer` a través de solicitudes de extracción (pull requests) y luego en la rama `master` para lanzamientos oficiales.
 
-### Escenarios
+### 3. Escenarios
 
-#### Escenario 1: Integración de Cambios en un Sprint
+
+<details>
+<summary>Escenario 1: Integración de Cambios en un Sprint</summary>
+  
+<br>
+
 1. **Desarrollo en Ramas de Funcionalidad**: Cada desarrollador crea una rama `developer` y ramas de funcionalidad (`feature_idtarea`) para trabajar en sus tareas asignadas.
 2. **Pull Requests a Developer**: Después de completar una tarea, cada desarrollador crea un pull request para fusionar su rama de funcionalidad con la rama `developer`.
 3. **Revisión y Pruebas**: El equipo revisa y prueba los cambios en la rama `developer` durante el sprint.
 4. **Lanzamiento de Versión**: Al finalizar el sprint, se incrementa la versión del software en el componente correspondiente (major, minor o patch) y se crea un tag de versión en la rama `master`.
 5. **Integración en Master**: Los cambios de la rama `developer` se integran en la rama `master` mediante un pull request y se realiza el despliegue del nuevo lanzamiento.
+<br>
 
-#### Escenario 2: Corrección de Bugs en Hotfix
+</details>
+
+<details>
+<summary>Escenario 2: Corrección de Bugs en Hotfix</summary>
+  
+<br>
+
+
 1. **Detección del Bug**: Se detecta un bug crítico en producción que requiere una corrección inmediata.
 2. **Creación de Rama Hotfix**: Se crea una rama `hotfix` desde la rama `master` para abordar el bug.
 3. **Resolución del Bug**: Se corrige el bug en la rama `hotfix` y se prueba localmente.
 4. **Pull Request a Master**: Después de confirmar que el bug ha sido corregido, se crea un pull request para fusionar la rama `hotfix` con la rama `master`.
 5. **Lanzamiento de Versión**: Se incrementa el número de versión en la rama `master` (major, minor o patch) y se crea un tag de versión para el lanzamiento de la corrección de bug.
+
+
+<br>
+
+</details>
+
 
 ### Ejemplo de Uso
 
