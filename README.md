@@ -13,6 +13,7 @@
 2. [Objetivo](#Objetivo)
 3. [Contribución](#Contribución)
 4. [Politica de versionamiento](Documents/Version/PoliticaVersionamiento.md)
+5. [Política de control de versiones](Documents/Version/02-ControlVersionesGitLab.md)
   
 
 
