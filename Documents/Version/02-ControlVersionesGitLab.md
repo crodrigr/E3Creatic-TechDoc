@@ -16,6 +16,16 @@ El objetivo de esta política es establecer un flujo de trabajo claro y consiste
 
 :small_blue_diamond: Cada nueva funcionalidad, tarea o historia de usuario debe desarrollarse en una rama de características separada desde la rama develop.
 
-:small_blue_diamond: El nombre de la rama debe ser descriptivo y seguir el formato: feature/nombre-de-la-funcionalidad.
+:small_blue_diamond: El nombre de la rama debe ser descriptivo y seguir el formato: `feature/nombre-de-la-funcionalidad`.
 
 :small_blue_diamond: Después de completar la funcionalidad, se fusiona con la rama develop a través de una solicitud de extracción (pull request).
+
+#### 2.3 Ramas de Publicación:
+
+:small_blue_diamond: Las ramas de publicación se crean para preparar lanzamientos específicos.
+
+:small_blue_diamond: Se derivan de la rama develop y se nombran con el formato: `release/version-del-lanzamiento`.
+
+:small_blue_diamond: Se utilizan para realizar pruebas finales y ajustes antes de lanzar una nueva versión al entorno de producción.
+
+:small_blue_diamond: Después de la finalización, se fusionan con `master` y `develop` y se etiqueta con la versión correspondiente.
