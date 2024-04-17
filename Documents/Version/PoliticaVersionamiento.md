@@ -1,23 +1,9 @@
 # Política de versionado de productos software
 
-
-|En los proyectos desarrollados por E3Creatic se deben seguir unas normas de versionado. Esto incluye  |
-|-----------|
-| ✴️ Uso de tres dígitos para la numeración: **major**, **minor** y **revision**. El cambio de cualquiera de estos números depende del tipo de los cambios que aporte la nueva Versión.  
-✴️ Cuarto dígito de control de entregas, opcional. 
-✴️ Mecanismos adicionales como el uso de bundles y releases (para proyectos complejos), y una categorización para versiones no finales (alpha, beta, rc).|
-
-La numeración de las versiones de los entregables software permiten expresar de forma normalizada las modificaciones existentes entre las distintas entregas, indicando los cambios que se han producido entre una versión y la siguiente.
-
-
---------
-
-Perfecto, aquí tienes la política de versionamiento de código en notación Markdown:
-
-
 ### Política de Versionamiento de Código
 
 #### Objetivo
+
 La política de versionamiento de código tiene como objetivo proporcionar una estructura clara y consistente para gestionar el versionamiento del código en un equipo de desarrollo de software. Esto incluye la identificación de versiones, la gestión de ramas de código, el incremento de versiones y el manejo de pre-lanzamientos.
 
 #### Convenciones de Versionamiento
@@ -64,6 +50,16 @@ Supongamos que se descubre un bug crítico en la función de pago del sistema du
  crea un tag de versión para el lanzamiento de la corrección.
 
 Espero que este ejemplo detallado te dé una idea clara de cómo se puede implementar una política de versionamiento de código en un equipo de desarrollo que utiliza Scrum y múltiples ramas de código para gestionar el desarrollo de software.
+
+
+|En los proyectos desarrollados por E3Creatic se deben seguir unas normas de versionado. Esto incluye  |
+|-----------|
+| ✴️ Uso de tres dígitos para la numeración: **major**, **minor** y **revision**. El cambio de cualquiera de estos números depende del tipo de los cambios que aporte la nueva Versión.  
+✴️ Cuarto dígito de control de entregas, opcional. 
+✴️ Mecanismos adicionales como el uso de bundles y releases (para proyectos complejos), y una categorización para versiones no finales (alpha, beta, rc).|
+
+La numeración de las versiones de los entregables software permiten expresar de forma normalizada las modificaciones existentes entre las distintas entregas, indicando los cambios que se han producido entre una versión y la siguiente.
+
 
 
 
