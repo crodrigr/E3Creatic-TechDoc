@@ -22,7 +22,7 @@ La política de versionamiento de código tiene como objetivo proporcionar una e
 
 <br>
 
-1. **Desarrollo en Ramas de Funcionalidad**: Cada desarrollador crea una rama `developer` y ramas de funcionalidad (`feature_idtarea`) para trabajar en sus tareas asignadas.
+1. **Desarrollo en Ramas de Funcionalidad**: Cada desarrollador crea una rama de funcionalidad (`feature_idtarea`) a partir de developer para trabajar en sus tareas asignadas.
 2. **Pull Requests a Developer**: Después de completar una tarea, cada desarrollador crea un pull request para fusionar su rama de funcionalidad con la rama `developer`.
 3. **Revisión y Pruebas**: El equipo revisa y prueba los cambios en la rama `developer` durante el sprint.
 4. **Lanzamiento de Versión**: Al finalizar el sprint, se incrementa la versión del software en el componente correspondiente (major, minor o patch) y se crea un tag de versión en la rama `master`.
@@ -30,12 +30,13 @@ La política de versionamiento de código tiene como objetivo proporcionar una e
     <details>
     <summary>Ejemplo:</summary>
     <br>
-    Supongamos que el equipo está trabajando en una nueva funcionalidad de autenticación de usuarios. Cada desarrollador crea una rama `developer` y una rama de funcionalidad (`feature_autenticacion`) para implementar esta funcionalidad.
+    Supongamos que el equipo está trabajando en una nueva funcionalidad de autenticación de usuarios. Cada desarrollador crea una rama de funcionalidad (`feature_autenticacion`) para implementar esta funcionalidad.
     
     Al finalizar el sprint, se realizan las siguientes acciones:
     - Se fusionan las ramas de funcionalidad en la rama `developer`.
-    - Se incrementa la versión del software a 2.0.0 (major) debido a la introducción de una nueva funcionalidad importante.
-    - Se crea un tag de versión en la rama `master` para el lanzamiento oficial.
+    - Se incrementa la versión del software de 2.1.0 (minor) a 2.2.0 debido a la introducción de una nueva funcionalidad importante. Sin embargo, es importante tener en cuenta que en ciertos casos, si los cambios son significativos, puede ser necesario incrementar la versión en el (major), por ejemplo, pasando de 2.1.0 a 3.0.0..  
+    - Se crea un tag de versión (este número de versión debe concordar con la versión especificada en el código fuente) en la rama `master` para el lanzamiento oficial.
+      
     
     </details>
 </details>
