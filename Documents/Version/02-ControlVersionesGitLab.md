@@ -8,11 +8,17 @@ El objetivo de esta política es establecer un flujo de trabajo claro y consiste
 
 #### 2.1  Ramas Permanentes:
 
+![image](https://github.com/crodrigr/E3Creatic-TechDoc/assets/31961588/87099c14-5db4-4926-baac-c4a48ee9c77d)
+
+
 :small_blue_diamond: **master:** Representa la rama principal de producción y solo contiene versiones estables y listas para producción.
 
 :small_blue_diamond:**develop:** Rama de desarrollo principal donde se integran todas las características nuevas y se realizan las pruebas de integración.
 
 #### 2.2 Ramas de Funcionalidades:
+
+![image](https://github.com/crodrigr/E3Creatic-TechDoc/assets/31961588/9c13690c-5f4d-40f7-98f6-e0cbc59728bf)
+
 
 :small_blue_diamond: Cada nueva funcionalidad, tarea o historia de usuario debe desarrollarse en una rama de características separada desde la rama develop.
 
@@ -21,6 +27,9 @@ El objetivo de esta política es establecer un flujo de trabajo claro y consiste
 :small_blue_diamond: Después de completar la funcionalidad, se fusiona con la rama develop a través de una solicitud de extracción (pull request).
 
 #### 2.3 Ramas de Publicación:
+
+![image](https://github.com/crodrigr/E3Creatic-TechDoc/assets/31961588/d9b4af73-f01e-4add-b58a-698e894d164b)
+
 
 :small_blue_diamond: Las ramas de publicación se crean para preparar lanzamientos específicos.
 
@@ -31,6 +40,10 @@ El objetivo de esta política es establecer un flujo de trabajo claro y consiste
 :small_blue_diamond: Después de la finalización, se fusionan con `master` y `develop` y se etiqueta con la versión correspondiente.
 
 #### 2.4 Ramas de Corrección de Errores:
+
+
+![image](https://github.com/crodrigr/E3Creatic-TechDoc/assets/31961588/f9cd3a1a-50ec-4db1-8c11-195f9a219750)
+
 
 :small_blue_diamond: Las ramas de corrección de errores (hotfix) se utilizan para abordar problemas críticos en producción.
 
