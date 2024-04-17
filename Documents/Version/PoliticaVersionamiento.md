@@ -68,8 +68,6 @@ La política de versionamiento de código tiene como objetivo proporcionar una e
 
 
 </details>
-
-<br>
 </details>
 
 ### 4.Tag-Comentarios
