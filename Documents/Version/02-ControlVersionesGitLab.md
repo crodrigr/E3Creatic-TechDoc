@@ -126,13 +126,13 @@ Partiendo del repositorio en GitLab llamado "app-proyecto" y creando la rama hot
    cd app-proyecto
    ```
 
-:three: **Asegurarse de estar en la rama main:**
+:three: **Asegurarse de estar en la rama master:**
 
    ```bash
-   git checkout main
+   git checkout master
    ```
 
-:four: **Crear una nueva rama de corrección de errores desde main:**
+:four: **Crear una nueva rama de corrección de errores desde master:**
 
    ```bash
    git checkout -b hotfix/error
@@ -218,6 +218,8 @@ Este proceso garantiza que los cambios propuestos sean revisados y aprobados por
 <br>
 
 #### 3.4 Escenario 4: Release de una nueva versión 
+
+:sunny: Solo los colaboradores con los permisos adecuados tienen la capacidad de realizar push a la rama master en el repositorio. Estos privilegios están restringidos a un grupo selecto de colaboradores designados, como líderes de equipo, revisores de código y desarrolladores con responsabilidades específicas en el proyecto. Esta limitación garantiza un control adecuado sobre los cambios que se fusionan en la rama principal de desarrollo, ayudando a mantener la integridad y la estabilidad del código base.
 
 <details><summary>Pasos</summary>
 <br>
