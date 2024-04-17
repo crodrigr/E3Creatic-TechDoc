@@ -1,3 +1,7 @@
+![image](https://github.com/crodrigr/E3Creatic-TechDoc/assets/31961588/14bd29f8-9fbd-4ac3-ad60-b6fdfba6887a)
+
+
+
 # E3Creatic-TechDoc
 
 ---
