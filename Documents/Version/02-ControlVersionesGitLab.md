@@ -63,31 +63,31 @@ Partiendo del repositorio en GitLab llamado **app-proyecto**, creando la rama **
    <details><summary>Pasos:</summary>
    <br>   
       
-   :one: Clonar el repositorio desde GitLab a tu máquina local:  
+   :one: **Clonar el repositorio desde GitLab a tu máquina local:**
    
      
       git clone <URL_del_repositorio_en_GitLab>
       
    
-   :two: Navegar al directorio del repositorio clonado:
+   :two: **Navegar al directorio del repositorio clonado:**
    
    
       cd app-proyecto
    
    
-   :three: Asegurarse de estar en la rama develop:
+   :three: **Asegurarse de estar en la rama develop:**
    
       
       git checkout develop
       
    
-   :four: Crear una nueva rama de características desde develop:
+   :four: **Crear una nueva rama de características desde develop:**
    
       
       git checkout -b feature/01
       
    
-   :five: Desarrollar la funcionalidad y hacer commits según sea necesario:
+   :five: **Desarrollar la funcionalidad y hacer commits según sea necesario:**
    
       
       # Realizar cambios y agregar archivos
@@ -96,7 +96,7 @@ Partiendo del repositorio en GitLab llamado **app-proyecto**, creando la rama **
       git commit -m "Implementar nueva funcionalidad"
       
    
-   :six: Subir la rama de características al repositorio en GitLab:
+   :six: **Subir la rama de características al repositorio en GitLab:**
    
       
       git push origin feature/01
@@ -112,44 +112,44 @@ Partiendo del repositorio en GitLab llamado "app-proyecto" y creando la rama hot
 <details><summary>Pasos:</summary>
 <br>
    
- :one: Clonar el repositorio desde GitLab a tu máquina local si aún no lo has hecho:
+ :one: **Clonar el repositorio desde GitLab a tu máquina local si aún no lo has hecho:**
    
    ```bash
    git clone <URL_del_repositorio_en_GitLab>
    ```
 
-:two: Navegar al directorio del repositorio clonado:
+:two: **Navegar al directorio del repositorio clonado:**
 
    ```bash
    cd app-proyecto
    ```
 
-:three: Asegurarse de estar en la rama main:
+:three: **Asegurarse de estar en la rama main:**
 
    ```bash
    git checkout main
    ```
 
-:four: Crear una nueva rama de corrección de errores desde main:
+:four: **Crear una nueva rama de corrección de errores desde main:**
 
    ```bash
    git checkout -b hotfix/error
    ```
 
-:five: Realizar la corrección del error en tu código.
+:five: **Realizar la corrección del error en tu código.**
 
    ```bash
    # Realizar correcciones según sea necesario
    ```
 
-:six: Hacer commit de los cambios:
+:six: **Hacer commit de los cambios:**
 
    ```bash
    git add .
    git commit -m "Corregir error crítico en producción"
    ```
 
-:seven: Subir la rama de corrección de errores al repositorio en GitLab:
+:seven: **Subir la rama de corrección de errores al repositorio en GitLab:**
 
    ```bash
    git push origin hotfix/error
