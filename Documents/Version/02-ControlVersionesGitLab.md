@@ -51,3 +51,13 @@ El objetivo de esta política es establecer un flujo de trabajo claro y consiste
 :small_blue_diamond: Se derivan de la rama master y se nombran con el formato: hotfix/nombre-del-error.
 
 :small_blue_diamond: Se fusionan con master y develop después de la corrección y se etiquetan con la versión correspondiente.
+
+<br><br>
+
+### 3. Escenarios 
+
+#### 3.1 Escenario 1: Desarrollo de una Nueva Funcionalidad
+
+Partiendo del repositorio en GitLab llamado **app-proyecto**, creando la rama feature/01 a partir de la rama develop que está en GitLab:
+
+
