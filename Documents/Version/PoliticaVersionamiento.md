@@ -30,7 +30,7 @@ La política de versionamiento de código tiene como objetivo proporcionar una e
     <details>
     <summary>Ejemplo:</summary>
     <br>
-    Supongamos que el equipo está trabajando en una nueva funcionalidad de autenticación de usuarios. Cada desarrollador crea una rama de funcionalidad (`feature_autenticacion`) para implementar esta funcionalidad.
+    Supongamos que el equipo está trabajando en una nueva funcionalidad de autenticación de usuarios. Cada desarrollador crea una rama de funcionalidad (`feature_idtarea`) para implementar esta funcionalidad.
     
     Al finalizar el sprint, se realizan las siguientes acciones:
     - Se fusionan las ramas de funcionalidad en la rama `developer`.
