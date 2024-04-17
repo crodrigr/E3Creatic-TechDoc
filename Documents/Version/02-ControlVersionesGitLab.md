@@ -107,7 +107,7 @@ Partiendo del repositorio en GitLab llamado **app-proyecto**, creando la rama **
 
 #### 3.2 Escenario 2: Corrección de un Error en Producción
 
-Partiendo del repositorio en GitLab llamado "app-proyecto" y creando la rama hotfix/error a partir de la rama develop que está en GitLab:
+Partiendo del repositorio en GitLab llamado "app-proyecto" y creando la rama hotfix/error a partir de la rama main/master que está en GitLab:
 
 <details><summary>Pasos:</summary>
 <br>
@@ -123,13 +123,13 @@ Partiendo del repositorio en GitLab llamado "app-proyecto" y creando la rama hot
    cd app-proyecto
    ```
 
-:three: Asegurarse de estar en la rama develop:
+:three: Asegurarse de estar en la rama main:
 
    ```bash
-   git checkout develop
+   git checkout main
    ```
 
-:four: Crear una nueva rama de corrección de errores desde develop:
+:four: Crear una nueva rama de corrección de errores desde main:
 
    ```bash
    git checkout -b hotfix/error
