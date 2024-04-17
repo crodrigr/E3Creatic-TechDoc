@@ -211,6 +211,7 @@ Una vez que has realizado el push a la rama de feature/01 en GitLab, el proceso 
 :one: **Confirmación de Fusión:**
    - Una vez completada la fusión, GitLab proporcionará una confirmación de que la fusión se ha realizado con éxito.    
    - Los cambios ahora estarán disponibles en la rama de destino y se reflejarán en el historial de cambios del repositorio.
+   - Elminar la rama feature/01 del repositorio de gitLab. 
 
 
 
