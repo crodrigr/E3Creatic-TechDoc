@@ -26,9 +26,7 @@ El repositorio incluye una variedad de documentos, organizados en carpetas temá
 
 Valoramos la contribución de todos los miembros del equipo para mejorar y mantener esta documentación técnica. Si tienes sugerencias, correcciones o nuevas ideas para agregar a la documentación, ¡no dudes en abrir una solicitud de extracción (pull request)!
 
-## Uso de Markdown
 
-Todos los documentos en este repositorio están escritos en formato Markdown, un lenguaje de marcado ligero que permite escribir texto formateado de manera sencilla y legible. Markdown es fácil de aprender y utilizar, lo que facilita la colaboración y la actualización de la documentación.
 
 ¡Gracias por utilizar este repositorio como tu fuente de referencia para la documentación técnica de nuestros proyectos de software!
 
