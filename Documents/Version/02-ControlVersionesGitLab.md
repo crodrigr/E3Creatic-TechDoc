@@ -224,13 +224,14 @@ Este proceso garantiza que los cambios propuestos sean revisados y aprobados por
 <details><summary>Pasos</summary>
 <br>
 
-:raising_hand:*Los siguientes pasos se llevan a cabo desde tu repositorio local. Por lo tanto, es importante tener en cuenta los siguientes aspectos:*
+:raising_hand:*Los siguientes pasos se llevan a cabo desde tu repositorio local. Por lo tanto, es importante tener en cuenta los siguientes aspectos para hacer el release:*
 
-*1. Asegúrate de tener una rama `develop` en tu repositorio local. Esta rama debería ser actualizada regularmente desde la rama `develop` en GitLab mediante el comando `git pull`. Durante este proceso, no se realizarán más actualizaciones a la rama `master` en GitLab.*
+*1. Asegúrate de tener una rama `develop` en tu repositorio local. Esta rama debería estar actualizada desde la rama `develop` de GitLab a través `git pull`. 
 
-*2. Además, es esencial contar con una copia local de la rama `master`, la cual deberías actualizar periódicamente desde la rama `master` en GitLab utilizando el comando `git pull`.*
+*2. Además, es esencial contar con una copia local de la rama `master`, la cual debería estar actualizada desde la rama `master` en GitLab utilizando el comando `git pull`.*
 
-*Estos pasos garantizan que estés trabajando con las versiones más actualizadas del código tanto en la rama de desarrollo como en la rama master, lo que te permite realizar el relase de forma actulizada y correcta*
+*Estos pasos garantizan que estés trabajando con las versiones más actualizadas del código, lo que te permite realizar el relase de forma actulizada y correcta*
+
 <br><br>
 
    
