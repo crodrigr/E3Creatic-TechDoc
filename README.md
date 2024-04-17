@@ -6,6 +6,26 @@
 
 ---
 
+¡Claro! Aquí tienes un ejemplo de cómo podrías estructurar una tabla de contenido en Markdown:
+
+```markdown
+# Tabla de Contenido
+
+1. [Politica de versionamiento](#master/Documents/Version/PoliticaVersionamiento.md)
+2. [Propósito](#propósito)
+3. [Instrucciones de Uso](#instrucciones-de-uso)
+4. [Estructura del Repositorio](#estructura-del-repositorio)
+    - [Política de Versionamiento](#política-de-versionamiento)
+    - [Pautas de Desarrollo](#pautas-de-desarrollo)
+    - [Guías de Estilo de Codificación](#guías-de-estilo-de-codificación)
+    - [Procedimientos de Despliegue](#procedimientos-de-despliegue)
+5. [Contribución](#contribución)
+6. [Uso de Markdown](#uso-de-markdown)
+7. [Agradecimientos](#agradecimientos)
+```
+
+En este ejemplo, cada sección de la tabla de contenido está vinculada a la sección correspondiente en el documento principal mediante el uso de anclas (`#`) que coinciden con los títulos de las secciones en el documento. Por ejemplo, `#introducción` se corresponde con el título de la sección "Introducción". Esto permite a los lectores hacer clic en los enlaces de la tabla de contenido para saltar directamente a la sección deseada en el documento.
+
 # Repositorio de Documentación Técnica de Proyectos de Software
 
 ¡Bienvenido al repositorio de documentación técnica para proyectos de software! Este repositorio sirve como un recurso centralizado para almacenar y gestionar toda la documentación relacionada con nuestros proyectos de software, incluyendo pautas de desarrollo, políticas de versionamiento, guías de estilo de codificación y mucho más.
