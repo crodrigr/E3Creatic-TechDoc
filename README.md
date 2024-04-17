@@ -11,18 +11,11 @@
 
 # Tabla de Contenido
 
-1. [Politica de versionamiento](Documents/Version/PoliticaVersionamiento.md)
-2. [Propósito](#propósito)
-3. [Instrucciones de Uso](#instrucciones-de-uso)
-4. [Estructura del Repositorio](#estructura-del-repositorio)
-    - [Política de Versionamiento](#política-de-versionamiento)
-    - [Pautas de Desarrollo](#pautas-de-desarrollo)
-    - [Guías de Estilo de Codificación](#guías-de-estilo-de-codificación)
-    - [Procedimientos de Despliegue](#procedimientos-de-despliegue)
-5. [Contribución](#contribución)
-6. [Uso de Markdown](#uso-de-markdown)
-7. [Agradecimientos](#agradecimientos)
-
+1. [Introducción](#Repositorio-de-Documentación-Técnica-de-Proyectos-de-Software)
+2. [Objetivo](#Objetivo)
+3. [Contribución](#Contribución)
+4. [Politica de versionamiento](Documents/Version/PoliticaVersionamiento.md)
+  
 
 En este ejemplo, cada sección de la tabla de contenido está vinculada a la sección correspondiente en el documento principal mediante el uso de anclas (`#`) que coinciden con los títulos de las secciones en el documento. Por ejemplo, `#introducción` se corresponde con el título de la sección "Introducción". Esto permite a los lectores hacer clic en los enlaces de la tabla de contenido para saltar directamente a la sección deseada en el documento.
 
