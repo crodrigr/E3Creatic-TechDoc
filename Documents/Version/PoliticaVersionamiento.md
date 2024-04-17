@@ -30,7 +30,7 @@ La política de versionamiento de código tiene como objetivo proporcionar una e
     <details>
     <summary>Ejemplo:</summary>
     <br>
-    Supongamos que el equipo está trabajando en una nueva funcionalidad de autenticación de usuarios. Cada desarrollador crea una rama **developer** y una rama de funcionalidad (**feature_autenticacion**) para implementar esta funcionalidad.
+    Supongamos que el equipo está trabajando en una nueva funcionalidad de autenticación de usuarios. Cada desarrollador crea una rama `developer` y una rama de funcionalidad (`feature_autenticacion`) para implementar esta funcionalidad.
     
     Al finalizar el sprint, se realizan las siguientes acciones:
     - Se fusionan las ramas de funcionalidad en la rama `developer`.
@@ -52,8 +52,23 @@ La política de versionamiento de código tiene como objetivo proporcionar una e
 3. **Resolución del Bug**: Se corrige el bug en la rama `hotfix` y se prueba localmente.
 4. **Pull Request a Master**: Después de confirmar que el bug ha sido corregido, se crea un pull request para fusionar la rama `hotfix` con la rama `master`.
 5. **Lanzamiento de Versión**: Se incrementa el número de versión en la rama `master` (major, minor o patch) y se crea un tag de versión para el lanzamiento de la corrección de bug.
-<br>
- 
+      <details>
+      <summary>Ejemplo:</summary>
+      <br>
+      
+      Supongamos que se descubre un bug crítico en la función de pago del sistema durante un despliegue en producción. Se sigue el siguiente proceso:
+      
+      - Se crea una rama `hotfix` desde la rama `master` para abordar el bug.
+      - Se corrige el bug y se fusiona la rama `hotfix` con la rama `master`.
+      - Se incrementa la versión del software a 1.0.1 (patch) para reflejar la corrección del bug y se crea un tag de versión para el lanzamiento de la corrección.
+      
+      Espero que este ejemplo detallado te dé una idea clara de cómo se puede implementar una política de versionamiento de código en un equipo de desarrollo que utiliza Scrum y múltiples ramas de código para gestionar el desarrollo de software.
+      
+      </details>
+
+
+</details>
+
 <br>
 </details>
 
@@ -61,25 +76,6 @@ La política de versionamiento de código tiene como objetivo proporcionar una e
 ### Ejemplo de Uso
 
 
-
-#### Escenario 2: Corrección de Bugs en Hotfix
-Supongamos que se descubre un bug crítico en la función de pago del sistema durante un despliegue en producción. Se sigue el siguiente proceso:
-- Se crea una rama `hotfix` desde la rama `master` para abordar el bug.
-- Se corrige el bug y se fusiona la rama `hotfix` con la rama `master`.
-- Se incrementa la versión del software a 1.0.1 (patch) para reflejar la corrección del bug y se
-
- crea un tag de versión para el lanzamiento de la corrección.
-
-Espero que este ejemplo detallado te dé una idea clara de cómo se puede implementar una política de versionamiento de código en un equipo de desarrollo que utiliza Scrum y múltiples ramas de código para gestionar el desarrollo de software.
-
-
-|En los proyectos desarrollados por E3Creatic se deben seguir unas normas de versionado. Esto incluye  |
-|-----------|
-| ✴️ Uso de tres dígitos para la numeración: **major**, **minor** y **revision**. El cambio de cualquiera de estos números depende del tipo de los cambios que aporte la nueva Versión.  
-✴️ Cuarto dígito de control de entregas, opcional. 
-✴️ Mecanismos adicionales como el uso de bundles y releases (para proyectos complejos), y una categorización para versiones no finales (alpha, beta, rc).|
-
-La numeración de las versiones de los entregables software permiten expresar de forma normalizada las modificaciones existentes entre las distintas entregas, indicando los cambios que se han producido entre una versión y la siguiente.
 
 
 
