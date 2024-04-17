@@ -168,15 +168,6 @@ Una vez que has realizado el push a la rama de feature/01 en GitLab, el proceso 
 <details><summary>Pasos:</summary>
 <br>
 
-Los siguientes pasos se llevan a cabo desde tu repositorio local. Por lo tanto, es importante tener en cuenta los siguientes aspectos:
-
-1. Asegúrate de tener una rama `develop` en tu repositorio local. Esta rama debería ser actualizada regularmente desde la rama `develop` en GitLab mediante el comando `git pull`. Durante este proceso, no se realizarán más actualizaciones a la rama `master` en GitLab.
-
-2. Además, es esencial contar con una copia local de la rama `master`, la cual deberías actualizar periódicamente desde la rama `master` en GitLab utilizando el comando `git pull`.
-
-Estos pasos garantizan que estés trabajando con las versiones más actualizadas del código tanto en la rama de desarrollo como en la rama principal, lo que te permite colaborar de manera efectiva en el proyecto y mantener la consistencia entre tu entorno de desarrollo local y el repositorio remoto en GitLab.
-
-   
 :one: **Navega al Repositorio en GitLab:**
 
    - Abre el navegador web y accede al repositorio en GitLab donde has realizado la solicitud de cambios.
@@ -232,6 +223,16 @@ Este proceso garantiza que los cambios propuestos sean revisados y aprobados por
 
 <details><summary>Pasos</summary>
 <br>
+
+Los siguientes pasos se llevan a cabo desde tu repositorio local. Por lo tanto, es importante tener en cuenta los siguientes aspectos:
+
+1. Asegúrate de tener una rama `develop` en tu repositorio local. Esta rama debería ser actualizada regularmente desde la rama `develop` en GitLab mediante el comando `git pull`. Durante este proceso, no se realizarán más actualizaciones a la rama `master` en GitLab.
+
+2. Además, es esencial contar con una copia local de la rama `master`, la cual deberías actualizar periódicamente desde la rama `master` en GitLab utilizando el comando `git pull`.
+
+Estos pasos garantizan que estés trabajando con las versiones más actualizadas del código tanto en la rama de desarrollo como en la rama principal, lo que te permite colaborar de manera efectiva en el proyecto y mantener la consistencia entre tu entorno de desarrollo local y el repositorio remoto en GitLab.
+
+   
 
 :one: **Asegúrate de estar en la rama `develop`:**
    - Antes de crear un release, asegúrate de estar en la rama `develop` para garantizar que la nueva versión se base en el código más reciente de desarrollo.
