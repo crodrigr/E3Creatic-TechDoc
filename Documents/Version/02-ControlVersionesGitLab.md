@@ -109,7 +109,9 @@ Partiendo del repositorio en GitLab llamado **app-proyecto**, creando la rama **
 
 Partiendo del repositorio en GitLab llamado "app-proyecto" y creando la rama hotfix/error a partir de la rama develop que está en GitLab:
 
-   1. Clonar el repositorio desde GitLab a tu máquina local si aún no lo has hecho:
+<details><summary>Pasos:</summary>
+<br>
+ 1. Clonar el repositorio desde GitLab a tu máquina local si aún no lo has hecho:
    ```bash
    git clone <URL_del_repositorio_en_GitLab>
    ```
@@ -147,5 +149,9 @@ Partiendo del repositorio en GitLab llamado "app-proyecto" y creando la rama hot
 
 Con estos pasos, has creado correctamente la rama hotfix/error a partir de la rama develop en el repositorio en GitLab llamado "app-proyecto" y has comenzado a corregir el error crítico en esa rama.
 
+
+</details>
+
+  
 <br><br>
 
