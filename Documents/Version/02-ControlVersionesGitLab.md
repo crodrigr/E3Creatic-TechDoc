@@ -106,7 +106,7 @@ Partiendo del repositorio en GitLab llamado **app-proyecto**, creando la rama **
    </details>
 
 Despúes de haber terminado la tarea y hacer el push, se pasa a la integración de la rama feature/01 con la rama develop, ambas ramas del GitLab, ver el Escenario 3. 
-<br><br>
+<br>
 
 #### 3.2 Escenario 2: Corrección de un Error en Producción
 
@@ -162,8 +162,8 @@ Con estos pasos, has creado correctamente la rama hotfix/error a partir de la ra
 
 
 </details>
+<br>
 
-<br><br>
 #### 3.2 Escenario 3: Solicitar un pull request para hacer un merget request
 
 Una vez que has realizado el push a la rama de feature/01 en GitLab, el proceso de solicitud de pull request y la fusión del código por parte del responsable del repositorio se pueden realizar de la siguiente manera:
@@ -220,10 +220,8 @@ Una vez que has realizado el push a la rama de feature/01 en GitLab, el proceso 
 
 </details>
 
-Este proceso garantiza que los cambios propuestos sean revisados y aprobados por el responsable del repositorio antes de fusionarse en la rama principal, lo que ayuda a mantener la integridad y la calidad del código base.
-
-  
-<br><br>
+Este proceso garantiza que los cambios propuestos sean revisados y aprobados por el responsable del repositorio antes de fusionarse en la rama principal, lo que ayuda a mantener la integridad y la calidad del código base.  
+<br>
 
 #### 3.4 Escenario 4: Release de una nueva versión 
 
