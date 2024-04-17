@@ -103,5 +103,10 @@ Partiendo del repositorio en GitLab llamado **app-proyecto**, creando la rama **
       
    </details>
 
+#### 3.2 Escenario 2: Corrección de un Error en Producción
 
+Partiendo del repositorio en GitLab llamado "app-proyecto" y creando la rama hotfix/error a partir de la rama develop que está en GitLab:
+   
+
+<br><br>
 
