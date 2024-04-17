@@ -159,9 +159,9 @@ Partiendo del repositorio en GitLab llamado "app-proyecto" y creando la rama hot
 
 Con estos pasos, has creado correctamente la rama hotfix/error a partir de la rama develop en el repositorio en GitLab llamado "app-proyecto" y has comenzado a corregir el error crítico en esa rama.
 </details>
-<br>
 
-#### 3.2 Escenario 3: Solicitar un pull request para hacer un merget request
+
+#### 3.3 Escenario 3: Solicitar un pull request para hacer un merget request
 
 Una vez que has realizado el push a la rama de feature/01 en GitLab, el proceso de solicitud de pull request y la fusión del código por parte del responsable del repositorio se pueden realizar de la siguiente manera:
 
