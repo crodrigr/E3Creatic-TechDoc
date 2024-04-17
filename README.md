@@ -11,7 +11,7 @@
 
 # Tabla de Contenido
 
-1. [Politica de versionamiento](#Documents/Version/PoliticaVersionamiento.md)
+1. [Politica de versionamiento](Documents/Version/PoliticaVersionamiento.md)
 2. [Propósito](#propósito)
 3. [Instrucciones de Uso](#instrucciones-de-uso)
 4. [Estructura del Repositorio](#estructura-del-repositorio)
