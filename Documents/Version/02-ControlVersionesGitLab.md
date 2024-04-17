@@ -62,7 +62,8 @@ Partiendo del repositorio en GitLab llamado **app-proyecto**, creando la rama **
 
    <details><summary>Pasos:</summary>
    <br>   
-   :one: Clonar el repositorio desde GitLab a tu máquina local:
+      
+   :one: Clonar el repositorio desde GitLab a tu máquina local:      
       ```bash
       git clone <URL_del_repositorio_en_GitLab>
       ```
