@@ -1,1 +1,21 @@
 # Política de Ramas y Flujo de Trabajo en GitLab utilizando Gitflow
+
+### 1. Objetivo:
+El objetivo de esta política es establecer un flujo de trabajo claro y consistente para el equipo de desarrollo de software, utilizando GitLab y la metodología Gitflow, al tiempo que se integra con el marco de trabajo Scrum.
+<br><br>
+
+### 2. Lineamientos Generales:
+
+#### 2.1  Ramas Permanentes:
+
+:small_blue_diamond: **master:** Representa la rama principal de producción y solo contiene versiones estables y listas para producción.
+
+:small_blue_diamond:**develop:** Rama de desarrollo principal donde se integran todas las características nuevas y se realizan las pruebas de integración.
+
+#### 2.2 Ramas de Funcionalidades:
+
+:small_blue_diamond: Cada nueva funcionalidad, tarea o historia de usuario debe desarrollarse en una rama de características separada desde la rama develop.
+
+:small_blue_diamond: El nombre de la rama debe ser descriptivo y seguir el formato: feature/nombre-de-la-funcionalidad.
+
+:small_blue_diamond: Después de completar la funcionalidad, se fusiona con la rama develop a través de una solicitud de extracción (pull request).
