@@ -29,3 +29,11 @@ El objetivo de esta política es establecer un flujo de trabajo claro y consiste
 :small_blue_diamond: Se utilizan para realizar pruebas finales y ajustes antes de lanzar una nueva versión al entorno de producción.
 
 :small_blue_diamond: Después de la finalización, se fusionan con `master` y `develop` y se etiqueta con la versión correspondiente.
+
+#### 2.4 Ramas de Corrección de Errores:
+
+:small_blue_diamond: Las ramas de corrección de errores (hotfix) se utilizan para abordar problemas críticos en producción.
+
+:small_blue_diamond: Se derivan de la rama master y se nombran con el formato: hotfix/nombre-del-error.
+
+:small_blue_diamond: Se fusionan con master y develop después de la corrección y se etiquetan con la versión correspondiente.
