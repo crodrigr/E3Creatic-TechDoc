@@ -73,6 +73,52 @@ La política de versionamiento de código tiene como objetivo proporcionar una e
 <br>
 </details>
 
+#### Tag-Comentarios
+
+En la industria del software, los comentarios en los tags suelen proporcionar información valiosa sobre los cambios incluidos en esa versión específica del software. Estos comentarios pueden ayudar a los desarrolladores, administradores de sistemas y usuarios a comprender los cambios realizados, las nuevas características agregadas, las correcciones de errores y cualquier otra información relevante sobre la versión.
+
+**Plantilla**
+
+```markdown
+Versión [número_de_versión] - "[título_del_lanzamiento]"
+-------------------------------------------------------------
+
+[Resumen breve de los cambios y mejoras realizados en esta versión.]
+
+### Cambios Principales:
+- [Descripción detallada de las nuevas características implementadas.]
+- [Mejoras significativas realizadas en el sistema.]
+- [Correcciones de errores importantes abordadas en esta versión.]
+
+### Acciones Requeridas:
+- [Instrucciones para los usuarios o administradores sobre acciones necesarias después de actualizar a esta versión, si las hay.]
+
+### Notas Adicionales:
+- [Cualquier otra información relevante sobre esta versión, como advertencias o limitaciones conocidas.]
+
+Para obtener más detalles sobre los cambios realizados, consulte el registro de cambios completo en el repositorio del proyecto.
+```
+
+<details><summary>Ejemplo:</summary>
+  
+Versión 2.0.0 - "Lanzamiento de la Funcionalidad de Pagos"
+-------------------------------------------------------------
+
+Esta versión marca un hito importante en el desarrollo del proyecto, con un enfoque principal en la implementación de la funcionalidad de pagos. A continuación, se detallan los cambios realizados en esta versión:
+
+- Se ha agregado una nueva página de pago que permite a los usuarios realizar transacciones seguras en línea.
+- Se han mejorado los sistemas de seguridad y encriptación para proteger la información financiera de los usuarios.
+- Se ha optimizado el rendimiento del sistema para manejar grandes volúmenes de transacciones de manera eficiente.
+- Se han corregido varios errores menores relacionados con la interfaz de usuario y la lógica de negocios.
+
+Se recomienda encarecidamente a todos los usuarios que actualicen a esta versión para disfrutar de las últimas características y mejoras en la plataforma de pagos.
+
+Para obtener más detalles sobre los cambios realizados, consulte el registro de cambios completo en el repositorio del proyecto.
+
+</details>
+
+
+
 
 
 
