@@ -6,8 +6,6 @@
 
 ---
 
-¡Claro! Aquí tienes un ejemplo de cómo podrías estructurar una tabla de contenido en Markdown:
-
 
 # Tabla de Contenido
 
