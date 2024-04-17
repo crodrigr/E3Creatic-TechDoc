@@ -215,7 +215,7 @@ Una vez que has realizado el push a la rama de feature/01 en GitLab, el proceso 
 </details>
 
 Este proceso garantiza que los cambios propuestos sean revisados y aprobados por el responsable del repositorio antes de fusionarse en la rama principal, lo que ayuda a mantener la integridad y la calidad del código base.  
-<br>
+
 
 #### 3.4 Escenario 4: Release de una nueva versión 
 
