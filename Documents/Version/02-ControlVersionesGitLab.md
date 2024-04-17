@@ -231,7 +231,7 @@ Este proceso garantiza que los cambios propuestos sean revisados y aprobados por
 *2. Además, es esencial contar con una copia local de la rama `master`, la cual deberías actualizar periódicamente desde la rama `master` en GitLab utilizando el comando `git pull`.*
 
 *Estos pasos garantizan que estés trabajando con las versiones más actualizadas del código tanto en la rama de desarrollo como en la rama principal, lo que te permite colaborar de manera efectiva en el proyecto y mantener la consistencia entre tu entorno de desarrollo local y el repositorio remoto en GitLab.*
-<br>
+<br><br>
 
    
 
