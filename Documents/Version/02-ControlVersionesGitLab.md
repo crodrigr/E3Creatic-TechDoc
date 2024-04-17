@@ -220,6 +220,7 @@ Este proceso garantiza que los cambios propuestos sean revisados y aprobados por
 #### 3.4 Escenario 4: Release de una nueva versión 
 
 <details><summary>Pasos</summary>
+<br>
 Aquí tienes los pasos detallados para hacer un release basado en la metodología Gitflow:
 
 1. **Asegúrate de estar en la rama `develop`:**
