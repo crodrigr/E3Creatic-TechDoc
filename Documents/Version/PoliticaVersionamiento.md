@@ -15,7 +15,7 @@ La política de versionamiento de código tiene como objetivo proporcionar una e
 - **Ramas de Código**: Cada desarrollador creará una rama de código separada para cada nueva funcionalidad o tarea, utilizando el formato `feature_idtarea`.
 - **Integración de Código**: Los cambios se integrarán primero en la rama `developer` a través de solicitudes de extracción (pull requests) y luego en la rama `master` para lanzamientos oficiales.
 
-### 3. Escenarios
+#### 3. Escenarios
 
 <details>
 <summary>Escenario 1: Integración de Cambios en un Sprint</summary>
@@ -73,7 +73,7 @@ La política de versionamiento de código tiene como objetivo proporcionar una e
 </details>
 
 
-### Ejemplo de Uso
+
 
 
 
