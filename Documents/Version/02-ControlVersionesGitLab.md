@@ -101,9 +101,8 @@ Partiendo del repositorio en GitLab llamado **app-proyecto**, creando la rama **
       
       git push origin feature/01
 
-   Con estos pasos, has creado correctamente la rama feature/01 a partir de la rama develop en el repositorio en GitLab llamado "app-proyecto" y has comenzado a desarrollar la nueva funcionalidad en esa rama.
-   
-   </details>
+   Con estos pasos, has creado correctamente la rama feature/01 a partir de la rama develop en el repositorio en GitLab llamado "app-proyecto" y has comenzado a desarrollar la nueva funcionalidad en esa rama.   
+</details>
 
 Despúes de haber terminado la tarea y hacer el push, se pasa a la integración de la rama feature/01 con la rama develop, ambas ramas del GitLab, ver el Escenario 3. 
 <br>
@@ -159,8 +158,6 @@ Partiendo del repositorio en GitLab llamado "app-proyecto" y creando la rama hot
    ```
 
 Con estos pasos, has creado correctamente la rama hotfix/error a partir de la rama develop en el repositorio en GitLab llamado "app-proyecto" y has comenzado a corregir el error crítico en esa rama.
-
-
 </details>
 <br>
 
@@ -215,9 +212,6 @@ Una vez que has realizado el push a la rama de feature/01 en GitLab, el proceso 
    - Una vez completada la fusión, GitLab proporcionará una confirmación de que la fusión se ha realizado con éxito.    
    - Los cambios ahora estarán disponibles en la rama de destino y se reflejarán en el historial de cambios del repositorio.
    - Elminar la rama feature/01 del repositorio de gitLab. 
-
-
-
 </details>
 
 Este proceso garantiza que los cambios propuestos sean revisados y aprobados por el responsable del repositorio antes de fusionarse en la rama principal, lo que ayuda a mantener la integridad y la calidad del código base.  
@@ -286,7 +280,6 @@ Aquí tienes los pasos detallados para hacer un release basado en la metodologí
    ```
 
 Estos pasos te permitirán seguir la metodología Gitflow para realizar un release de manera ordenada y controlada, asegurando que cada versión sea probada y etiquetada adecuadamente antes de su lanzamiento.
-
 </details>
 
 
