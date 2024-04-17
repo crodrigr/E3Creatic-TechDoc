@@ -102,8 +102,10 @@ Partiendo del repositorio en GitLab llamado **app-proyecto**, creando la rama **
       git push origin feature/01
 
    Con estos pasos, has creado correctamente la rama feature/01 a partir de la rama develop en el repositorio en GitLab llamado "app-proyecto" y has comenzado a desarrollar la nueva funcionalidad en esa rama.
-      
+   
    </details>
+
+Despúes de haber terminado la tarea y hacer el push, se pasa a la integración de la rama feature/01 con la rama develop, ambas ramas del GitLab, ver el Escenario 3. 
 
 #### 3.2 Escenario 2: Corrección de un Error en Producción
 
