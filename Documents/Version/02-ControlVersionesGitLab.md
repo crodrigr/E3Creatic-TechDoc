@@ -63,27 +63,32 @@ Partiendo del repositorio en GitLab llamado **app-proyecto**, creando la rama **
    <details><summary>Pasos:</summary>
    <br>   
       
-   :one: Clonar el repositorio desde GitLab a tu máquina local:      
+   :one: Clonar el repositorio desde GitLab a tu máquina local:  
+   
       ```bash
       git clone <URL_del_repositorio_en_GitLab>
       ```
    
    :two: Navegar al directorio del repositorio clonado:
+   
       ```bash
       cd app-proyecto
       ```
    
    :three: Asegurarse de estar en la rama develop:
+   
       ```bash
       git checkout develop
       ```
    
    :four: Crear una nueva rama de características desde develop:
+   
       ```bash
       git checkout -b feature/01
       ```
    
    :five: Desarrollar la funcionalidad y hacer commits según sea necesario:
+   
       ```bash
       # Realizar cambios y agregar archivos
       git add .
@@ -92,6 +97,7 @@ Partiendo del repositorio en GitLab llamado **app-proyecto**, creando la rama **
       ```
    
    :six: Subir la rama de características al repositorio en GitLab:
+   
       ```bash
       git push origin feature/01
       ```
