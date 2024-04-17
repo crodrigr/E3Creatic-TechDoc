@@ -17,10 +17,9 @@ La política de versionamiento de código tiene como objetivo proporcionar una e
 
 ### 3. Escenarios
 
-
 <details>
 <summary>Escenario 1: Integración de Cambios en un Sprint</summary>
-  
+
 <br>
 
 1. **Desarrollo en Ramas de Funcionalidad**: Cada desarrollador crea una rama `developer` y ramas de funcionalidad (`feature_idtarea`) para trabajar en sus tareas asignadas.
@@ -28,9 +27,19 @@ La política de versionamiento de código tiene como objetivo proporcionar una e
 3. **Revisión y Pruebas**: El equipo revisa y prueba los cambios en la rama `developer` durante el sprint.
 4. **Lanzamiento de Versión**: Al finalizar el sprint, se incrementa la versión del software en el componente correspondiente (major, minor o patch) y se crea un tag de versión en la rama `master`.
 5. **Integración en Master**: Los cambios de la rama `developer` se integran en la rama `master` mediante un pull request y se realiza el despliegue del nuevo lanzamiento.
-<br>
-
+    <details>
+    <summary>Ejemplo:</summary>
+    <br>
+    Supongamos que el equipo está trabajando en una nueva funcionalidad de autenticación de usuarios. Cada desarrollador crea una rama **developer** y una rama de funcionalidad (**feature_autenticacion**) para implementar esta funcionalidad.
+    
+    Al finalizar el sprint, se realizan las siguientes acciones:
+    - Se fusionan las ramas de funcionalidad en la rama `developer`.
+    - Se incrementa la versión del software a 2.0.0 (major) debido a la introducción de una nueva funcionalidad importante.
+    - Se crea un tag de versión en la rama `master` para el lanzamiento oficial.
+    
+    </details>
 </details>
+
 
 <details>
 <summary>Escenario 2: Corrección de Bugs en Hotfix</summary>
@@ -43,22 +52,15 @@ La política de versionamiento de código tiene como objetivo proporcionar una e
 3. **Resolución del Bug**: Se corrige el bug en la rama `hotfix` y se prueba localmente.
 4. **Pull Request a Master**: Después de confirmar que el bug ha sido corregido, se crea un pull request para fusionar la rama `hotfix` con la rama `master`.
 5. **Lanzamiento de Versión**: Se incrementa el número de versión en la rama `master` (major, minor o patch) y se crea un tag de versión para el lanzamiento de la corrección de bug.
-
-
 <br>
-
+ 
+<br>
 </details>
 
 
 ### Ejemplo de Uso
 
-#### Escenario 1: Integración de Cambios en un Sprint
-Supongamos que el equipo está trabajando en una nueva funcionalidad de autenticación de usuarios. Cada desarrollador crea una rama `developer` y una rama de funcionalidad (`feature_autenticacion`) para implementar esta funcionalidad.
 
-Al finalizar el sprint, se realizan las siguientes acciones:
-- Se fusionan las ramas de funcionalidad en la rama `developer`.
-- Se incrementa la versión del software a 2.0.0 (major) debido a la introducción de una nueva funcionalidad importante.
-- Se crea un tag de versión en la rama `master` para el lanzamiento oficial.
 
 #### Escenario 2: Corrección de Bugs en Hotfix
 Supongamos que se descubre un bug crítico en la función de pago del sistema durante un despliegue en producción. Se sigue el siguiente proceso:
