@@ -19,7 +19,7 @@
 
 # Repositorio de Documentación Técnica de Proyectos de Software
 
-¡Bienvenido al repositorio de documentación técnica para proyectos de software! Este repositorio sirve como un recurso centralizado para almacenar y gestionar toda la documentación relacionada con nuestros proyectos de software, incluyendo pautas de desarrollo, políticas de versionamiento, guías de estilo de codificación y mucho más.
+Este repositorio sirve como un recurso centralizado para almacenar y gestionar toda la documentación relacionada con nuestros proyectos de software, incluyendo pautas de desarrollo, políticas de versionamiento, guías de estilo de codificación y mucho más.
 
 ## Objetivo
 
@@ -42,9 +42,3 @@ El repositorio incluye una variedad de documentos, organizados en carpetas temá
 Valoramos la contribución de todos los miembros del equipo para mejorar y mantener esta documentación técnica. Si tienes sugerencias, correcciones o nuevas ideas para agregar a la documentación, ¡no dudes en abrir una solicitud de extracción (pull request)!
 
 
-
-¡Gracias por utilizar este repositorio como tu fuente de referencia para la documentación técnica de nuestros proyectos de software!
-
----
-
-Esta introducción proporciona una visión general del propósito del repositorio, el contenido que se puede encontrar en él, la importancia de la contribución y el uso del formato Markdown para escribir la documentación.
