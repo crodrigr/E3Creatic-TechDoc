@@ -1,6 +1,5 @@
 # Política de versionado de productos software
 
-### Política de Versionamiento de Código
 
 #### 1. Objetivo
 
