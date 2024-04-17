@@ -159,6 +159,54 @@ Con estos pasos, has creado correctamente la rama hotfix/error a partir de la ra
 
 </details>
 
+
+#### 3.2 Escenario 3: Solicitar un pull request para hacer un merget request
+
+Una vez que has realizado el push a la rama de feature/01 en GitLab, el proceso de solicitud de pull request y la fusión del código por parte del responsable del repositorio se pueden realizar de la siguiente manera:
+
+<details><summary>Pasos:</summary>
+
+1. **Navega al Repositorio en GitLab:**
+   - Abre el navegador web y accede al repositorio en GitLab donde has realizado la solicitud de cambios.
+
+2. **Abre la Página de Merge Requests:**
+   - En la página principal del repositorio, busca y haz clic en la pestaña "Merge Requests" o "Solicitudes de Fusión".
+
+3. **Crea un Nuevo Merge Request:**
+   - Haz clic en el botón "New merge request" o "Nueva solicitud de fusión".
+
+4. **Selecciona las Ramas:**
+   - En la página de creación de la solicitud de fusión, selecciona la rama de destino (generalmente la rama `develop` o `master`) como "Target branch".
+   - Selecciona la rama de características (en este caso, `feature/01`) como "Source branch".
+
+5. **Completa los Detalles del Merge Request:**
+   - Proporciona un título descriptivo para la solicitud de fusión y una descripción detallada de los cambios realizados.
+   - Puedes etiquetar a los revisores apropiados y asignarles tareas si es necesario.
+
+6. **Crea la Solicitud de Fusión:**
+   - Haz clic en el botón "Submit merge request" o "Enviar solicitud de fusión" para crear la solicitud de fusión.
+
+7. **Revisión y Comentarios:**
+   - El responsable del repositorio y otros colaboradores pueden revisar la solicitud de fusión, realizar comentarios y solicitar modificaciones si es necesario.
+   - Puede haber discusiones adicionales sobre los cambios propuestos antes de que se apruebe la solicitud de fusión.
+
+8. **Aprobación de la Solicitud de Fusión:**
+   - Una vez que se hayan realizado las revisiones y se hayan abordado todos los comentarios, el responsable del repositorio puede aprobar la solicitud de fusión.
+
+9. **Fusión del Código:**
+   - Después de la aprobación, el responsable del repositorio puede fusionar la rama de características (`feature/01`) en la rama de destino (`develop` o `master`) utilizando la interfaz de GitLab.
+   - Se pueden agregar etiquetas de versión y otros metadatos relevantes antes de completar la fusión.
+
+10. **Confirmación de Fusión:**
+    - Una vez completada la fusión, GitLab proporcionará una confirmación de que la fusión se ha realizado con éxito.
+    - Los cambios ahora estarán disponibles en la rama de destino y se reflejarán en el historial de cambios del repositorio.
+
+
+
+</details>
+
+Este proceso garantiza que los cambios propuestos sean revisados y aprobados por el responsable del repositorio antes de fusionarse en la rama principal, lo que ayuda a mantener la integridad y la calidad del código base.
+
   
 <br><br>
 
