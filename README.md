@@ -15,7 +15,7 @@
 4. [Politica de versionamiento](Documents/Version/PoliticaVersionamiento.md)
   
 
-En este ejemplo, cada sección de la tabla de contenido está vinculada a la sección correspondiente en el documento principal mediante el uso de anclas (`#`) que coinciden con los títulos de las secciones en el documento. Por ejemplo, `#introducción` se corresponde con el título de la sección "Introducción". Esto permite a los lectores hacer clic en los enlaces de la tabla de contenido para saltar directamente a la sección deseada en el documento.
+
 
 # Repositorio de Documentación Técnica de Proyectos de Software
 
