@@ -42,7 +42,8 @@ El objetivo de esta política es establecer un flujo de trabajo claro y consiste
 #### 2.4 Ramas de Corrección de Errores:
 
 
-![image](https://github.com/crodrigr/E3Creatic-TechDoc/assets/31961588/f9cd3a1a-50ec-4db1-8c11-195f9a219750)
+![image](https://github.com/crodrigr/E3Creatic-TechDoc/assets/31961588/33144100-e146-4865-bbe0-d8b420c0b0a9)
+
 
 
 :small_blue_diamond: Las ramas de corrección de errores (hotfix) se utilizan para abordar problemas críticos en producción.
