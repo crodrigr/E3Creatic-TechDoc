@@ -106,6 +106,7 @@ Partiendo del repositorio en GitLab llamado **app-proyecto**, creando la rama **
    </details>
 
 Despúes de haber terminado la tarea y hacer el push, se pasa a la integración de la rama feature/01 con la rama develop, ambas ramas del GitLab, ver el Escenario 3. 
+<br><br>
 
 #### 3.2 Escenario 2: Corrección de un Error en Producción
 
@@ -162,7 +163,7 @@ Con estos pasos, has creado correctamente la rama hotfix/error a partir de la ra
 
 </details>
 
-
+<br><br>
 #### 3.2 Escenario 3: Solicitar un pull request para hacer un merget request
 
 Una vez que has realizado el push a la rama de feature/01 en GitLab, el proceso de solicitud de pull request y la fusión del código por parte del responsable del repositorio se pueden realizar de la siguiente manera:
@@ -224,3 +225,71 @@ Este proceso garantiza que los cambios propuestos sean revisados y aprobados por
   
 <br><br>
 
+#### 3.4 Escenario 4: Release de una nueva versión 
+
+<details><summary>Pasos</summary>
+Aquí tienes los pasos detallados para hacer un release basado en la metodología Gitflow:
+
+1. **Asegúrate de estar en la rama `develop`:**
+   - Antes de crear un release, asegúrate de estar en la rama `develop` para garantizar que la nueva versión se base en el código más reciente de desarrollo.
+   ```bash
+   git checkout develop
+   ```
+
+2. **Crea una nueva rama de release desde `develop`:**
+   - Utiliza el prefijo `release/` seguido del número de versión para nombrar la rama de release.
+   ```bash
+   git checkout -b release/1.0.0
+   ```
+
+3. **Actualiza el número de versión en tu código:**
+   - Actualiza el número de versión en tu código según el estándar de versionamiento de tu proyecto. Esto podría incluir actualizar el archivo `package.json`, `composer.json`, o cualquier otro archivo donde se especifique la versión del software.
+   - Asegúrate de hacer un commit con este cambio.
+   ```bash
+   git add <archivos modificados>
+   git commit -m "Actualizar número de versión para el release 1.0.0"
+   ```
+
+4. **Realiza pruebas finales en la rama de release:**
+   - Realiza pruebas de integración y pruebas de usuario final en la rama de release para garantizar que la versión esté lista para su despliegue.
+
+5. **Fusiona la rama de release con `master`:**
+   - Una vez que el release esté listo, fusiona la rama de release con la rama `master`.
+   ```bash
+   git checkout master
+   git merge --no-ff release/1.0.0
+   ```
+
+6. **Etiqueta el release en `master`:**
+   - Etiqueta la fusión en la rama `master` con el número de versión para marcar el lanzamiento oficial.
+   ```bash
+   git tag -a v1.0.0 -m "Versión 1.0.0"
+   ```
+
+7. **Fusiona la rama de release con `develop`:**
+   - Fusiona la rama de release con la rama `develop` para asegurarte de que los cambios en el release también se reflejen en la rama de desarrollo.
+   ```bash
+   git checkout develop
+   git merge --no-ff release/1.0.0
+   ```
+
+8. **Elimina la rama de release (opcional):**
+   - Si ya no se necesita, puedes eliminar la rama de release.
+   ```bash
+   git branch -d release/1.0.0
+   ```
+
+9. **Empuja los cambios y las etiquetas al repositorio remoto:**
+   - Finalmente, asegúrate de empujar los cambios y las etiquetas al repositorio remoto para compartir la nueva versión con otros colaboradores y desencadenar los despliegues correspondientes.
+   ```bash
+   git push origin master
+   git push origin develop
+   git push --tags
+   ```
+
+Estos pasos te permitirán seguir la metodología Gitflow para realizar un release de manera ordenada y controlada, asegurando que cada versión sea probada y etiquetada adecuadamente antes de su lanzamiento.
+
+</details>
+
+
+<br><br>
