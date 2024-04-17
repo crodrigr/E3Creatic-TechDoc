@@ -4,7 +4,7 @@
 ### 1. Objetivo
 
 La política de versionamiento de código tiene como objetivo proporcionar una estructura clara y consistente para gestionar el versionamiento del código en un equipo de desarrollo de software. Esto incluye la identificación de versiones, la gestión de ramas de código, el incremento de versiones y el manejo de pre-lanzamientos.
-
+<br><br>
 ### 2. Convenciones de Versionamiento
 - **Formato de versión**: Las versiones seguirán el formato "MAJOR.MINOR.PATCH" donde:
   - **MAJOR**: Incrementado para cambios significativos que pueden afectar la compatibilidad hacia atrás o introducir nuevas funcionalidades importantes.
@@ -13,7 +13,7 @@ La política de versionamiento de código tiene como objetivo proporcionar una e
 - **Pre-lanzamientos (Pre-release)**: Se utilizarán etiquetas adicionales como `alpha`, `beta` o `rc` (release candidate) para versiones en desarrollo y pruebas.
 - **Ramas de Código**: Cada desarrollador creará una rama de código separada para cada nueva funcionalidad o tarea, utilizando el formato `feature_idtarea`.
 - **Integración de Código**: Los cambios se integrarán primero en la rama `developer` a través de solicitudes de extracción (pull requests) y luego en la rama `master` para lanzamientos oficiales.
-
+<br><br>
 ### 3. Escenarios
 
 <details>
@@ -69,7 +69,7 @@ La política de versionamiento de código tiene como objetivo proporcionar una e
 
 </details>
 </details>
-
+<br><br>
 ### 4.Tag-Comentarios
 
 En la industria del software, los comentarios en los tags suelen proporcionar información valiosa sobre los cambios incluidos en esa versión específica del software. Estos comentarios pueden ayudar a los desarrolladores, administradores de sistemas y usuarios a comprender los cambios realizados, las nuevas características agregadas, las correcciones de errores y cualquier otra información relevante sobre la versión.
